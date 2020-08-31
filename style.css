@@ -1,0 +1,58 @@
+ 
+body{
+	background-color: #faf8ef;
+	display: flex;
+	justify-content: center;
+	font-family: 'Lobster Two', cursive;
+}
+
+.heading{
+	font-size: 50px;
+	font-weight: bold;
+	margin-right: -50px;
+}
+
+
+ .grid{
+	width: 400px;
+	height: 400px;
+	background-color: #bbada0;
+	border: 7px solid #bbada0;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px	
+}
+
+.grid div{
+	width: 100px;
+	height: 100px;
+	background-color: #eee4da; 
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: #afa192;
+	line-height: 1.8;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.score-container{
+	text-align: center;
+	width: 160px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: pink;
+	color: #ffffff;
+	margin-top: 170px;
+	margin-right: 50px;
+	padding: 30px;
+}
+
+.score-title{
+	font-size: 30px;
+}
+
+#score{
+	font-size: 50px;
+}
